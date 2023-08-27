@@ -64,3 +64,12 @@ text-transform: uppercase;
   line-height: normal;
   text-transform: capitalize;
 }
+
+.lead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 259px;
+  margin-top: 82px;
+  margin-left: 221px;
+  margin-right: 169px;
+}
