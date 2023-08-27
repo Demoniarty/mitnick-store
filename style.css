@@ -138,3 +138,20 @@ body {
 .add-text {
   font-size: 20px;
 }
+
+.big-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 72px;
+}
+
+.big-card-content {
+  margin-left: 190px;
+  display: flex;
+  align-items: center;
+}
+
+.big-card-text {
+  font-size: 20px;
+  margin-right: 30px;
+}
