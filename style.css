@@ -68,7 +68,7 @@ body {
 .lead {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 259px;
+  column-gap: 200px;
   margin-top: 82px;
   margin-left: 221px;
   margin-right: 169px;
@@ -99,9 +99,12 @@ body {
 
 .lead-text {
   font-size: 20px;
+  margin-top: 60px;
 }
 
 .order-wrapper {
+  margin-top: 85px;
+  margin-bottom: 147px;
   width: 245px;
   height: 48px;
   flex-shrink: 0;
@@ -127,5 +130,11 @@ body {
 }
 
 .lead-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-text {
   font-size: 20px;
 }
