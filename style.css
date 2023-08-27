@@ -88,3 +88,15 @@ body {
   font-style: normal;
   color: #00affa;
 }
+
+.text {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lead-text {
+  font-size: 20px;
+}
