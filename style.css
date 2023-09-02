@@ -308,6 +308,11 @@ body {
   text-transform: capitalize;
 }
 
+/** Доставка и оплата **/
+
+
+/** Служба должна быть вкусной **/
+
 .delicious-serve-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
