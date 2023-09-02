@@ -248,6 +248,7 @@ body {
   margin-left: 196px;
 }
 
+/** rename bc of rep this class in Служба должна быть вкусной **/
 .collect-box-title {
   color: #000;
   text-align: left;
@@ -299,10 +300,22 @@ body {
 
 .adv-title {
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   text-transform: capitalize;
+}
+
+.delicious-serve-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 101px;
+
+  margin-left: 178px;
+}
+
+.delicious-serve-text > p {
+  margin-bottom: 60px;
 }
