@@ -310,6 +310,13 @@ body {
 
 /** Доставка и оплата **/
 
+.del-n-pay-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 90px;
+  margin-left: 185px;
+  margin-right: 179px;
+}
 
 /** Служба должна быть вкусной **/
 
