@@ -230,9 +230,46 @@ body {
   text-decoration: none;
   color: #00affa;
   text-align: center;
-  font-family: Iceberg;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.collect-your-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 96px;
+  padding-bottom: 118px;
+}
+
+.collect-box-card {
+  margin-left: 196px;
+}
+
+.collect-box-title {
+  color: #000;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+
+  margin-bottom: 70px;
+}
+
+.go-to-catalog {
+  text-decoration: none;
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Iceberg;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 26px;
 }
