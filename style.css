@@ -273,3 +273,36 @@ body {
 
   margin-top: 26px;
 }
+
+.donuts-history-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 99px;
+
+  margin-left: 185px;
+  margin-bottom: 115px;
+  margin-top: 100px;
+}
+
+.adv-card {
+  display: flex;
+}
+
+.adv-card-text {
+  flex-direction: column;
+}
+
+.adv-card > img {
+  order: -1;
+  margin-right: 17px;
+}
+
+.adv-title {
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+}
