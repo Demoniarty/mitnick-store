@@ -343,6 +343,7 @@ body {
   padding-left: 150px;
 
   padding-top: 116px;
+  padding-bottom: 161px;
 }
 
 .footer-content-list {
@@ -365,7 +366,7 @@ body {
 
 .subscribe-field {
   display: flex;
-  /**justify-content: flex-end;**/
+  justify-content: space-between;
   width: 462px;
   height: 47px;
   flex-shrink: 0;
@@ -376,7 +377,17 @@ body {
 .subscribe-field input[type="email"] {
   flex-shrink: 0;
   border-radius: 20px;
-  
+  border: none;
+  width: 297px;
+
+  padding-left: 24px;
+
+  color: #00affa;
+  font-family: Iceberg;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .subscribe-field input[type="submit"] {
