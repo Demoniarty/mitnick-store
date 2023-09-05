@@ -362,6 +362,12 @@ body {
 
 .item-txt {
   text-align: left;
+  margin-bottom: 50px;
+}
+
+.footer-subscribe {
+  display: grid;
+  column-gap: 50px;
 }
 
 .subscribe-field {
@@ -383,7 +389,7 @@ body {
   padding-left: 24px;
 
   color: #00affa;
-  font-family: Iceberg;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
