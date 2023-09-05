@@ -327,6 +327,7 @@ body {
   column-gap: 101px;
 
   margin-left: 178px;
+  margin-bottom: 137px;
 }
 
 .delicious-serve-text > p {
@@ -338,6 +339,10 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 128px;
+  padding-left: 150px;
+  
+  padding-top: 116px;
 }
 
 .footer-content-list {
