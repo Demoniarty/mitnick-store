@@ -341,7 +341,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 128px;
   padding-left: 150px;
-  
+
   padding-top: 116px;
 }
 
@@ -352,7 +352,7 @@ body {
 .footer-text {
   color: #000;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -361,4 +361,12 @@ body {
 
 .item-txt {
   text-align: left;
+}
+
+.subscribe-field {
+  width: 462px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
 }
