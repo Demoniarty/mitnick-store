@@ -1,7 +1,7 @@
 # mitnick-store
 
 P.1
-
+* images to dir
 * adaptive
 * google fonts (Iceberg)
 * buttons (text-align...)
