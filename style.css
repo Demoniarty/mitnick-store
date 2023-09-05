@@ -364,9 +364,26 @@ body {
 }
 
 .subscribe-field {
+  display: flex;
+  /**justify-content: flex-end;**/
   width: 462px;
   height: 47px;
   flex-shrink: 0;
   border-radius: 20px;
   background: #fff;
+}
+
+.subscribe-field input[type="submit"] {
+  width: 165px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #1c0027;
+
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
